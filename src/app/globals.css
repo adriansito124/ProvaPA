@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --diarreia: "#ccb24c";
+  --areia: " #f7d683";
+  --creme: " #fffdc0";
+  --branco: " #fffffd";
+  --azul: " #457d97";
+}
+
+*{
+  scroll-behavior: smooth;
+}
