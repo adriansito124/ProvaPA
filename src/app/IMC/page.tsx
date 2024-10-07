@@ -63,7 +63,7 @@ const Maths: React.FC = () => {
                     <div className="flex-col flex items-center gap-2">
                         <button className=" text-diarreia bg-creme p-1 px-2 border rounded-lg border-diarreia" onClick={handleDiv}>CALCULAR</button>
                         <h2 className="text-center min-w-16  p-1 text-black border bg-branco rounded-lg">{!isNaN(respDiv ?? NaN) ? respDiv?.toFixed(2) : msgError}</h2>
-                        <h2 className="text-center min-w-16  p-1 text-black border bg-branco rounded-lg">{imc == 1 ? "Abaixo do normal" : imc == 2 ? "Normal" : imc == 3 ? "Sobrepeso" : imc == 4 ? "Obesidade grau 1" : imc == 5 ? "Obesidade grau 2" : "Obesidade grau 3"}</h2>
+                        <h2 className="text-center min-w-16  p-1 text-black border bg-branco rounded-lg">{imc == 1 ? "Abaixo do normal" : imc == 2 ? "Normal" : imc == 3 ? "Sobrepeso" : imc == 4 ? "Obesidade grau 1" : imc == 5 ? "Obesidade grau 2" : imc == 6 ? "Obesidade grau 3" : "INSIRA OS DADOS"}</h2>
                     </div>
                 </div>
             </div>
