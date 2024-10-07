@@ -1,5 +1,5 @@
 export enum ROUTES {
     home = "/",
-    imc = "/IMC",
-    medias = "/Medias",
-}
+    imc = "/imc",
+    medias = "/medias",
+}   

@@ -8,25 +8,13 @@ const nextConfig = {
                 destination: "/home",
             },
             {
-                source: "/matematicas",
-                destination: "/maths",
+                source: "/imc",
+                destination: "/IMC",
             },
             {
-                source: "/funcao-reaproveitada",
-                destination: "/general-function",
-            },
-            {
-                source: "/nativo",
-                destination: "/fetch-page",
-            },
-            {
-                source: "/pagina-com-axios",
-                destination: "/axios-page",
-            },
-            {
-                source: "/pagina-server-side",
-                destination: "/server-side",
-            },
+                source: "/medias",
+                destination: "/Medias",
+            }
         ]
     }
 

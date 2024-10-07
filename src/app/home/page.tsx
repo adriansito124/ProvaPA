@@ -6,8 +6,7 @@ import next  from "@/assets/next.png";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Teste Next.ts",
-  description: "Aprendizagem técnica Bosch",
+  title: "Home",
 }; 
 
 export default function Home() {

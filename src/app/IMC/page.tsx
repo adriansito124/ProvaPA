@@ -1,5 +1,5 @@
 "use client"
-import { Handlee } from "next/font/google"
+
 import React, { useState } from "react"
 
 const Maths: React.FC = () => {
